@@ -58,7 +58,6 @@ export class Game {
     
             console.log(this.players[this.currentPlayer] + "'s new location is " + this.places[this.currentPlayer]);
             console.log("The category is " + this.currentCategory());
-            this.askQuestion();
           } else {
             console.log(this.players[this.currentPlayer] + " is not getting out of the penalty box");
             this.isGettingOutOfPenaltyBox = false;
