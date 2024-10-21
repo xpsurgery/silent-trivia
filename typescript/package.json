@@ -32,6 +32,8 @@
     "typescript": "^2.9.2"
   },
   "devDependencies": {
+    "@types/chai": "^5.0.0",
+    "@types/mocha": "^10.0.9",
     "chai": "^4.1.2",
     "mocha": "^5.2.0",
     "nyc": "^15.1.0",
