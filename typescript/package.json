@@ -10,6 +10,7 @@
   "author": "Felix Blechschmitt",
   "license": "GPL-3.0",
   "dependencies": {
+    "rand-seed": "^2.1.7",
     "typescript": "^2.9.2"
   },
   "devDependencies": {
