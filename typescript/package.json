@@ -7,25 +7,6 @@
     "start": "ts-node src/game-runner.ts",
     "test": "mocha --recursive --require ts-node/register \"tests/**/*.test.ts\""
   },
-  "nyc": {
-    "include": [
-      "src/**/*.ts"
-    ],
-    "exclude": [
-      "typings"
-    ],
-    "extension": [
-      ".ts"
-    ],
-    "require": [
-      "ts-node/register"
-    ],
-    "reporter": [
-      "text-summary",
-      "text",
-      "html"
-    ]
-  },
   "author": "Felix Blechschmitt",
   "license": "GPL-3.0",
   "dependencies": {
