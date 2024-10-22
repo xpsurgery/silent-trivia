@@ -13,7 +13,6 @@ export class Game {
     private rockQuestions: Array<string> = [];
 
     constructor() {
-
         for (let i = 0; i < 50; i++) {
             this.popQuestions.push("Pop Question " + i);
             this.scienceQuestions.push("Science Question " + i);

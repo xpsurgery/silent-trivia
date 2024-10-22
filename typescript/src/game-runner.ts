@@ -20,6 +20,3 @@ export class GameRunner {
     }
 }
 
-const rand = new Rand();
-GameRunner.main(rand);
-

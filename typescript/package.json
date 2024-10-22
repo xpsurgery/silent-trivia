@@ -4,7 +4,8 @@
   "description": "Trivia kata in typescript",
   "main": "src/game-runner.ts",
   "scripts": {
-    "start": "ts-node src/game-runner.ts",
+    "golden": "ts-node src/golden-runner.ts",
+    "start": "ts-node src/run-game.ts",
     "test": "mocha --recursive --require ts-node/register \"tests/**/*.test.ts\""
   },
   "author": "Felix Blechschmitt",
@@ -16,6 +17,7 @@
   "devDependencies": {
     "@types/chai": "^5.0.0",
     "@types/mocha": "^10.0.9",
+    "@types/node": "^22.7.8",
     "chai": "^4.1.2",
     "mocha": "^5.2.0",
     "sinon": "^6.1.3",
