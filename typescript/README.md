@@ -1,8 +1,20 @@
 Trivia kata in typescript
 =========================
 
-1. Install the dependencies with this command: `npm install`
-2. Run the game with this command: `npm run start`
-3. Run the tests with this command: `npm test`
+To run the game with random dice rolls
+``` sh
+make run
+```
+or
+``` sh
+npm run start
+```
 
-    Any test source matching the pattern `*.test.ts` below `tests/` will be executed.
+To run the tests
+``` sh
+make test
+```
+This will create the Golden Master if it doesn't already exist;
+otherwise it will run the game 1,000 times and compare the outputs
+with the existing Golden Master.
+
